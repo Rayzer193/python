@@ -3,9 +3,6 @@
 import os
 os.system('cls') # при компиляции на Linux или MaxOS необходимо 'cls' за менить на 'clear'
 
-
-
-
 def primer_list (primer):
     prim_list  =  {}
     primer = primer.replace(' - ',' -').replace(" + ",' +')
